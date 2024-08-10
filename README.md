@@ -134,12 +134,15 @@ This is just to clarify doubts about the abbreviations of the Themes, as many fo
 
 #### Acknowledgements to
 
-Thanks to [@korpsvart](https://github.com/Fausto-Korpsvart)<br>
+Thanks to [@korpsvart](https://github.com/Fausto-Korpsvart) for the original theme<br>
 Thanks to [@telometto](https://github.com/telometto) for the alternative to the application of themes in `Flatpak.`<br>
 Thanks to [@f1yn](https://github.com/f1yn) for the solution to the active and inactive borders in the new version of `Cinnamon.`<br>
 Thanks to [@eeeXun](https://github.com/eeeXun) for the hint to solve the bug in `Mate Desktop` window control buttons.<br>
 Thanks to [@Icy-Thought](https://github.com/Icy-Thought),[@D3vil0p3r](https://github.com/D3vil0p3r) and others who have packaged these themes for NIX & AUR.
 
 #### Support
+
+> [!NOTE]
+> This paypal link belongs to the developer of the original theme<br>
 
 [![PayPal Support](https://img.shields.io/badge/Donate-PayPal-00457C?style=for-the-badge&logo=paypalColor=white)](https://www.paypal.com/donate/?hosted_button_id=LKVTXNA36FTV4)
