@@ -1,7 +1,7 @@
 <h1 align="center">Tokyonight GTK Theme new colors</h1>
 
 > [!NOTE]
-> This theme is just a recolor(+ some extra stuff) of the original [Tokyonight-GTK-Theme](https://github.com/Fausto-Korpsvart/Tokyonight-GTK-Theme)
+> This theme is just a <b>hacky</b> recolor(+ some extra stuff) of the original [Tokyonight-GTK-Theme](https://github.com/Fausto-Korpsvart/Tokyonight-GTK-Theme)
 
 ## INSTALLING THEMES
 
