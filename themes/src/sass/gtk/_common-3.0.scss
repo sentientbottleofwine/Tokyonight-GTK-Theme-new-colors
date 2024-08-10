@@ -2498,7 +2498,7 @@ notebook {
 	}
 
 	&.frame {
-		border: none;
+		border: 1px solid $grey-800;
 		border-radius: $modal-radius;
 
 		scrolledwindow.frame {
@@ -2524,7 +2524,7 @@ notebook {
 	> header {
 		border: none;
 		// background-color: if($variant == 'light', rgba(white, 0.6), $fill);
-		background-color: if($variant == 'light', rgba($base, 0.4), $fill);
+		background-color: if($variant == 'light', rgba($base, 0.4), $grey-800);
 		padding: $space-size / 2;
 		margin: $space-size / 2;
 		border-radius: $modal-radius + $space-size / 2;
@@ -4350,18 +4350,25 @@ infobar {
 		& > revealer > box,
 		&:hover > revealer > box,
 		&:backdrop > revealer > box {
-			background-color: $base;
+			background-color: $white;
 
 			&,
 			flowboxchild {
-				color: $text;
+				color: $black;
 			}
 
 			button {
 				&.text-button:not(:disabled):not(.suggested-action):not(
 						.destructive-action
 					) {
-					color: $primary;
+					color: $text;
+                    background-color: $grey-850;
+				}
+
+                &.text-button:not(:disabled):not(.suggested-action):not(
+						.destructive-action
+					) {
+                    background-color: $grey-800;
 				}
 			}
 		}
