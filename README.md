@@ -1,26 +1,7 @@
 <h1 align="center">Tokyonight GTK Theme</h1>
 
-<p align="center">
-  <img alt="Linux Logo" src="https://img.shields.io/badge/OS-Linux-FCC624?style=for-the-badge&logo=linux&logoColor=yelow"/>
-  <img alt="CSS Logo" src="https://img.shields.io/badge/Style-CSS-blue?style=for-the-badge&logo=css3&logoColor=blue"/>
-  <img alt="GitHub Stars" src="https://img.shields.io/github/stars/Fausto-Korpsvart/Tokyonight-GTK-Theme?&style=for-the-badge&logoColor=red" />
-  <img alt="GitHub Forks" src="https://img.shields.io/github/forks/Fausto-Korpsvart/Tokyonight-GTK-Theme?style=for-the-badge" />
-  <img alt="GitHub Issues" src="https://img.shields.io/github/issues/Fausto-Korpsvart/Tokyonight-GTK-Theme?style=for-the-badge" />
-  <img alt="GNU Licence" src='https://img.shields.io/github/license/Fausto-Korpsvart/Tokyonight-GTK-Theme?style=for-the-badge&logo=GNU&label=License&color=bd0000&logoColor=white'/>
-</p>
-
 > [!NOTE]
-> Description
-> A GTK theme based on the colours of [Folke's](https://github.com/folke) great theme: [Tokyonight for Neovim](https://github.com/folke/tokyonight.nvim),
-> the [VinceLiuice's](https://github.com/vinceliuice) awesome: [Magnetic GTK theme](https://github.com/vinceliuice/Magnetic-gtk-theme)
-> and the creativity of [Gusbemacbe's](https://github.com/gusbemacbe): [Suru Plus Icon Theme](https://github.com/gusbemacbe/suru-plus).<br>
->
-> The theme is more focused on the Gnome Desktop, but supports Cinnamon, XFCE, Mate, etc. with generic styles.
-> It's great to combine in your TWMs like: XmonadWM, AwesomeWM, BSPWM, etc...
->
-> You can check **Reddit:** [r/unixporn](https://www.reddit.com/r/unixporn/) to get some ideas.
-
-![Tokyonight](https://raw.githubusercontent.com/Fausto-Korpsvart/Tokyo-Night-GTK-Theme/master/extra/screenshots/Tokyonight.png)
+> This theme is just a recolor(+ some extra stuff) of the original [Tokyonight-GTK-Theme](https://github.com/Fausto-Korpsvart/Tokyonight-GTK-Theme)
 
 ## INSTALLING THEMES
 
@@ -52,48 +33,6 @@ sudo pacman -S gtk-engine-murrine
 ```sh
 sudo apt install gtk2-engines-murrine
 ```
-
-The themes work on versions 40 to 44 of the GNOME D.E. just follow the steps below for installation:
-
-- Download the [themes](https://www.pling.com/u/fkorpsvart) packs and extract them
-- Move the extracted files to the following paths:
-  - For GTK3: `~/.themes` In this path you must move the entire theme folder.
-  - For GTK4: `~/.config/gtk-4.0` The files to move to this path can be found inside the theme directory in the `gtk-4.0` folder,
-    copy only the `assets`, `gtk.css` and `gtk-dark.css` files or create a symlinks.
-
-### Applying Themes from zip files
-
-- For GTK3, apply themes from **Gnome Tweaks**.
-- For GTK4 applications it is only necessary to have moved the `assets`, `gtk.css` and `gtk-dark.css` files to the `~/.config/gtk-4.0` path,
-  and if you notice that the theme has not been applied, just close and reopen the application.
-
-### Applying Themes to Flatpak Apps
-
-- Override flatpak themes to `~/.themes`:
-
-```sh
-sudo flatpak override --filesystem=$HOME/.themes
-```
-
-- Override flatpak icons to `~/.icons`:
-
-```sh
-sudo flatpak override --filesystem=$HOME/.icons
-```
-
-- Override flatpak themes to `~/.config/gtk-4.0` locally:
-
-```sh
-flatpak override --user --filesystem=xdg-config/gtk-4.0
-```
-
-- Override flatpak themes to `~/.config/gtk-4.0` globally:
-
-```sh
-sudo flatpak override --filesystem=xdg-config/gtk-4.0
-```
-
-**Alternative Flatpak Theming: [stylepak](https://github.com/refi64/stylepak)**
 
 ## CLI INSTALLATION
 
@@ -132,6 +71,40 @@ The `./install.sh` allows some specific options like:
 -h, --help              Show help
 ```
 
+### Applying Themes from zip files
+
+- For GTK3, apply themes from **Gnome Tweaks**.
+- For GTK4 applications it is only necessary to have moved the `assets`, `gtk.css` and `gtk-dark.css` files to the `~/.config/gtk-4.0` path,
+  and if you notice that the theme has not been applied, just close and reopen the application.
+
+### Applying Themes to Flatpak Apps
+
+- Override flatpak themes to `~/.themes`:
+
+```sh
+sudo flatpak override --filesystem=$HOME/.themes
+```
+
+- Override flatpak icons to `~/.icons`:
+
+```sh
+sudo flatpak override --filesystem=$HOME/.icons
+```
+
+- Override flatpak themes to `~/.config/gtk-4.0` locally:
+
+```sh
+flatpak override --user --filesystem=xdg-config/gtk-4.0
+```
+
+- Override flatpak themes to `~/.config/gtk-4.0` globally:
+
+```sh
+sudo flatpak override --filesystem=xdg-config/gtk-4.0
+```
+
+**Alternative Flatpak Theming: [stylepak](https://github.com/refi64/stylepak)**
+
 ## CLARIFYING SOME DOUBTS
 
 This is just to clarify doubts about the abbreviations of the Themes, as many found the names confusing.
@@ -160,6 +133,7 @@ This is just to clarify doubts about the abbreviations of the Themes, as many fo
 
 #### Acknowledgements to
 
+Thanks to [@korpsvart](https://github.com/Fausto-Korpsvart)<br>
 Thanks to [@telometto](https://github.com/telometto) for the alternative to the application of themes in `Flatpak.`<br>
 Thanks to [@f1yn](https://github.com/f1yn) for the solution to the active and inactive borders in the new version of `Cinnamon.`<br>
 Thanks to [@eeeXun](https://github.com/eeeXun) for the hint to solve the bug in `Mate Desktop` window control buttons.<br>
