@@ -130,7 +130,7 @@
         @if ($type == 'e') { @return $grey-950; }
 		@if ($type == 'f') { @return $black; }
 		@if ($type == 'g') { @return $grey-750; }
-		@if ($type == 'h') { @return $grey-700; }
+		@if ($type == 'h') { @return $grey-950; }
 		@if ($type == 'i') { @return $grey-650; }
 	}
 }
@@ -212,7 +212,7 @@ $text-secondary-disabled:               on($background, secondary-disabled);
 $track:                                 on($background, track);
 $track-disabled:                        on($background, track-disabled);
 $divider:                               on($background, divider);
-$fill:                                  on($background, fill);
+$fill:                                  $black;
 
 $titlebar-text:                         on($titlebar);
 $titlebar-text-secondary:               on($titlebar, secondary);
