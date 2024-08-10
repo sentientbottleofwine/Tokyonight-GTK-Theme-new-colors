@@ -3512,7 +3512,7 @@ printdialog {
 	margin: 0;
 	padding: 0;
 	border: 1px solid $divider;
-	border-radius: 0;
+	border-radius: $modal-radius;
 	box-shadow: none;
 }
 
