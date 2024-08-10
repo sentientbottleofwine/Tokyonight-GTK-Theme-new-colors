@@ -3,6 +3,7 @@
 > [!NOTE]
 > This theme is just a <b>hacky</b> recolor(+ some extra stuff) of the original [Tokyonight-GTK-Theme](https://github.com/Fausto-Korpsvart/Tokyonight-GTK-Theme)
 
+![Screenshot](extra/screenshots/Tokyonight.png)
 ## INSTALLING THEMES
 
 Before installing the themes, make sure to install the following necessary packages:
